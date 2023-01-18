@@ -10,6 +10,6 @@ export default{
 
 <template>
   <div>
-    <button @click="count++">Click Like and Subscribe! {{count}} 👍</button>
+    <button @click="count++">Click Like and Subscribe!!! {{count}} 👍</button>
   </div>
 </template>
