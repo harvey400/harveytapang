@@ -1,19 +1,18 @@
-<script setup>
-import TheWelcome from '@/components/TheWelcome.vue'
-import Information from '@/components/Information.vue'
-</script>
-
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <ul>
+      <li><router-link :to="{name:'about'}">About</router-link></li>
+      <li><router-link :to="{name: 'projects'}">Projects</router-link></li>
+    </ul>
   </header>
   
   <main>
-    <Information />
-    <TheWelcome />
+    <router-view></router-view>
   </main>
 </template>
-
+<script setup>
+  import { RouterView, RouterLink } from 'vue-router';
+</script>
 <style scoped>
 
 </style>
