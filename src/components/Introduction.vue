@@ -1,5 +1,5 @@
 <template>
-        <div class="block flex flex-col justify-center space-y-4 h-screen">
+        <div class="flex flex-col justify-center h-screen">
             <div class="mx-20">
                 <span class="text-gray-300 text-2xl block">Hi, my name is</span>
                 <span class="pointer unselectable text-gray-100 text-8xl font-bold green" @click="setName"> {{ fullName }}.</span>
