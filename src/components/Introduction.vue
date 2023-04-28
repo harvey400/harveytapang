@@ -1,5 +1,5 @@
 <template>
-        <div class="block flex flex-col justify-center space-y-4 h-screen">
+        <div class="flex flex-col justify-center h-screen">
             <div class="mx-20">
                 <span class="text-gray-300 text-2xl block">Hi, my name is</span>
                 <span class="pointer unselectable text-gray-100 text-8xl font-bold green" @click="setName"> {{ fullName }}.</span>
@@ -8,7 +8,7 @@
                 </span>
                 <span class="w-auto max-w-xl block text-gray-400 mt-5 text-xl">
                     I'm a web developer specializing on building a products for companies ranging from marketing websites to
-                    full functional web application to provide client with full user experience
+                    full functional web application to provide clients with full user experience
                 </span>
             </div>
         </div>
