@@ -8,6 +8,9 @@ module.exports = {
       colors:{
         navy:{
           DEFAULT:'#0a192f'
+        },
+        vueGreen:{
+          DEFAULT: 'hsla(160, 100%, 37%, 1)'
         }
       }
     },

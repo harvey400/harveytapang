@@ -1,10 +1,10 @@
 <template>
     <div class="">
         <Introduction/>
-        <TechStack/>
+        <Skills/>
     </div>
 </template>
 <script setup>
 import Introduction from '@/components/Introduction.vue';
-import TechStack from '../components/TechStack.vue';
+import Skills from '../components/Skills.vue';
 </script>
