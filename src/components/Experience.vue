@@ -2,7 +2,7 @@
     <div class="h-60">
 
     </div>
-    <h1 class="text-white w-full h-screen ml-20">
+    <h1 class="text-white w-full h-fit ml-20">
         <div class="text-3xl md:text-5xl sm:text-5xl font-semibold mb-5">Experience</div>
         <div class="flex h-48">
             <div class="">
