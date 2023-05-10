@@ -11,7 +11,11 @@ module.exports = {
         },
         vueGreen:{
           DEFAULT: 'hsla(160, 100%, 37%, 1)'
-        }
+        },
+      margin: {
+        '200':'200px',
+        '100':'100px'
+      }
       }
     },
   },
