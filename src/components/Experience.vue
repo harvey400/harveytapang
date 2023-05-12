@@ -1,25 +1,38 @@
 <template>
     <div class="h-60">
-
     </div>
     <h1 class="text-white w-full h-fit ml-20">
         <div class="text-3xl md:text-5xl sm:text-5xl font-semibold mb-5">Experience</div>
-        <div class="flex h-48">
-            <div class="">
-                <div class="line-experience bg-gray-400">
+        <div v-for="(experience, key) in experiences">
+            <div class="flex h-48">
+                <div class="">
+                    <div class="line-experience bg-gray-400">
+                    </div>
+                    <div class="circle-experience" :class="{current: isCurrent(key)}" >
+                    </div>
                 </div>
-                <div class="circle-experience current">
+                <div class="ml-4 flex flex-col justify-center h-full">
+                    <div class="text-xl">{{ experience.name }}</div>
+                    <div class="text-md text-gray-400">{{ experience.role }}</div>
+                    <div class="text-l text-gray-400 italic">{{ experience.years }}</div>
                 </div>
-            </div>
-            <div class="ml-4 flex flex-col justify-center h-full">
-                <div class="text-xl">Tensei Philippines Inc.</div>
-                <div class="text-md text-gray-400">Systems Engineer</div>
-                <div class="text-l text-gray-400 italic">2017 ~ 2021</div>
             </div>
         </div>
     </h1>
 </template>
 <script setup>
+import { Experience } from '../db.js';
+import { ref, computed} from 'vue';
+
+const experiences = computed(()=> Experience.reverse())
+
+const isCurrent = ref((key) => {
+    if (key === 0) {
+        return true;
+    }
+})
+
+
 </script>
 <style scoped>
 .line-experience {    

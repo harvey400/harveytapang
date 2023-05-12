@@ -1,7 +1,32 @@
 [
     {
         "id": 1,
-        "name": "",
-        "link": ""
+        "name": "Laravel",
+        "link": "https://laravel.com/",
+        "logo": "laravel.png"
+    },
+    {
+        "id": 2,
+        "name": "Vue JS",
+        "link": "https://vuejs.org/",
+        "logo": "vuejs.png"
+    },
+    {
+        "id": 3,
+        "name": "Javascript",
+        "link": "https://www.javascript.com/",
+        "logo": "javascript.png"
+    },
+    {
+        "id": 4,
+        "name": "Boostrap CSS",
+        "link": "https://getbootstrap.com/",
+        "logo": "bootstrap.png"
+    },
+    {
+        "id": 5,
+        "name": "Tailwind CSS",
+        "link": "https://tailwindcss.com/",
+        "logo": "tailwind.png"
     }
 ]
