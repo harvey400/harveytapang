@@ -3,14 +3,16 @@
         "id": 1,
         "title": "iBMS",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, nisi dicta veniam officiis unde aliquid distinctio inventore velit eum, expedita corporis, magnam et quae quisquam hic ab beatae in minima? Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ea nobis illum, quis quibusdam molestias nulla eligendi, corrupti consequatur dolor quo ipsum dicta quaerat dolores sed, tenetur blanditiis aliquid eum.",
-        "preview-image": "",
-        "bg-preview-image": ""
+        "link":"",
+        "preview-image": "ibms.png",
+        "bg-preview-image": "ibms-bg.png"
     },
     {
         "id": 2,
-        "title": "Cert Searc",
+        "title": "Cert Search",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, nisi dicta veniam officiis unde aliquid distinctio inventore velit eum, expedita corporis, magnam et quae quisquam hic ab beatae in minima? Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ea nobis illum, quis quibusdam molestias nulla eligendi, corrupti consequatur dolor quo ipsum dicta quaerat dolores sed, tenetur blanditiis aliquid eum.",
-        "preview-image": "",
-        "bg-preview-image": ""
+        "link":"",
+        "preview-image": "certsearch.png",
+        "bg-preview-image": "certsearch-bg.png"
     }
 ]

@@ -2,23 +2,33 @@
     <div class="h-60"></div>
     <div class="text-white w-full h-fit ml-20">
         <div class="text-3xl sm:text-5xl md:text-5xl font-semibold mb-5">Projects</div>
-
-        <div class="grid md:grid-cols-2 sm:grid-cols-1 sm:my-[100px] md:my-[200px]">
-            <div class="">
-                <div class="text-2xl mb-3">iBMS</div>
-                <div class="text-lg mr-10 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, 
-                    nisi dicta veniam officiis unde aliquid distinctio inventore velit eum, expedita 
-                    corporis, magnam et quae quisquam hic ab beatae in minima? Lorem ipsum dolor sit 
-                    amet consectetur adipisicing elit. Optio ea nobis illum, quis quibusdam molestias
-                    nulla eligendi, corrupti consequatur dolor quo ipsum dicta quaerat dolores sed, 
-                    tenetur blanditiis aliquid eum.</div>
-            </div>
-            <div class="flex justify-center">
-                <div class="relative sm:mt-10 lg:mt-0">
-                    <div class="bg-project clip-circle flex justify-center lg:visible md:visible sm:invisible">
-                        <img src="@/assets/logo.svg">
+        <div v-for="(project, key) in projects" class="">
+            <div v-if="key % 2 == 0" class="grid md:grid-cols-2 sm:grid-cols-1 sm:my-[100px] md:my-[300px]">
+                <div class="">
+                    <div class="text-vueGreen text-2xl font-semibold mb-3">{{ project.title }}</div>
+                    <div class="text-lg mr-10 text-justify">{{ project.description }}</div>
+                </div>
+                <div class="flex justify-center">
+                    <div class="relative sm:mt-10 lg:mt-0">
+                        <div class="bg-project clip-circle flex justify-center lg:visible md:visible sm:invisible">
+                            <img :src="getImagePath(project['bg-preview-image'])">
+                        </div>
+                        <img class="project-thumbnail border" :src="getImagePath(project['preview-image'])" width="300px">
                     </div>
-                    <img class="project-thumbnail" src="@/assets/logo.svg" width="300px">
+                </div>
+            </div>
+            <div v-else class="grid md:grid-cols-2 sm:grid-cols-1 sm:my-[100px] md:my-[300px]">
+                <div class="flex justify-center">
+                    <div class="relative sm:mt-10 lg:mt-0">
+                        <div class="bg-project clip-circle flex justify-center lg:visible md:visible sm:invisible">
+                            <img :src="getImagePath(project['bg-preview-image'])">
+                        </div>
+                        <img class="project-thumbnail border" :src="getImagePath(project['preview-image'])" width="300px">
+                    </div>
+                </div>
+                <div class="">
+                    <div class="text-vueGreen text-2xl font-semibold mb-3">{{ project.title }}</div>
+                    <div class="text-lg mr-10 text-justify">{{ project.description }}</div>
                 </div>
             </div>
         </div>
@@ -26,6 +36,16 @@
     <div class="h-60"></div>
 </template>
 <script setup>
+import { Projects } from '../db.js';
+import { ref } from 'vue';
+
+const projects = ref(Projects);
+
+
+const getImagePath  = (imageName) => {
+    return new URL ('@/assets/img/project-preview', import.meta.url).href + '/' + imageName
+}
+
 </script>
 <style scoped>
 
@@ -35,19 +55,19 @@
     transition: 300ms;
 }
 
-
 .bg-project {
     position: absolute;
-    top:-160px;
-    left: -125px;
+    top:-180px;
+    left: -80px;
     height: 550px;
     width: 550px;
-    z-index: 2;
-    opacity: 0.4;
+    z-index: -1;
+    opacity: .3;
 }
 
 .project-thumbnail {
-    opacity: .4;
+    height: auto;
+    width: 400px;
 }
 
 </style>
