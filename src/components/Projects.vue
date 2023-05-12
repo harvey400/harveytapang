@@ -43,7 +43,7 @@ const projects = ref(Projects);
 
 
 const getImagePath  = (imageName) => {
-    return new URL ('@/assets/img/project-preview', import.meta.url).href + '/' + imageName
+    return '/src/assets/img/project-preview/' + imageName
 }
 
 </script>
