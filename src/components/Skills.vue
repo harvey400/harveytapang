@@ -18,7 +18,7 @@ import { ref } from 'vue';
 const skills = ref(Skills);
 
 const getImagePath  = (imageName) => {
-    return new URL ('@/assets/img/logo', import.meta.url).href + '/' + imageName
+    return '/src/assets/img/logo/' + imageName
 }
 
 </script>
