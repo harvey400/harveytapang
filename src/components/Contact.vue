@@ -9,7 +9,7 @@
                 </div>
                 <div class="my-5">
                     <label class="text-2xl  font-semibold block mb-2" for="email">Message</label>
-                    <textarea class="text-xl pl-2 py-2 shadow border rounded w-full bg-transparent leading-tight focus:border-vueGreen focus:outline-none focus:shadow-outline transition transition-300" maxlength="1" type="input" rows="6" id="message" placeholder="Message"/>
+                    <textarea class="text-xl pl-2 py-2 shadow border rounded w-full bg-transparent leading-tight focus:border-vueGreen focus:outline-none focus:shadow-outline transition transition-300" maxlength="300" type="input" rows="6" id="message" placeholder="Message"/>
                 </div>
                 <div class="flex justify-end">
                     <button class="rounded border text-xl px-5 py-2 border-white hover:border-vueGreen hover:bg-vueGreen active:bg-green-700 font-semibold transition transition-300">Send</button>

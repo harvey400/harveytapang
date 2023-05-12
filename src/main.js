@@ -8,10 +8,10 @@ import '@/assets/main.css'
 import { library } from '@fortawesome/fontawesome-svg-core' 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 //Solid Icons
-import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faFile } from '@fortawesome/free-solid-svg-icons'
 //Brand Icons
-import { faVuejs, faJs } from '@fortawesome/free-brands-svg-icons'
-library.add(faPhone, faVuejs, faJs);
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+library.add(faFile, faLinkedin, faGithub);
 
 createApp(App)
 .use(router)
