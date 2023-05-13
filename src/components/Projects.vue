@@ -11,9 +11,9 @@
                 <div class="flex justify-center">
                     <div class="relative sm:mt-10 lg:mt-0">
                         <div class="bg-project clip-circle flex justify-center lg:visible md:visible sm:invisible">
-                            <img :src="getImagePath(project['bg-preview-image'])">
+                            <img :src="'img/project-preview/' + project['bg-preview-image']">
                         </div>
-                        <img class="project-thumbnail border" :src="getImagePath(project['preview-image'])" width="300px">
+                        <img class="project-thumbnail border" :src="'img/project-preview/' + project['preview-image']" width="300px">
                     </div>
                 </div>
             </div>
@@ -21,9 +21,9 @@
                 <div class="flex justify-center">
                     <div class="relative sm:mt-10 lg:mt-0">
                         <div class="bg-project clip-circle flex justify-center lg:visible md:visible sm:invisible">
-                            <img :src="getImagePath(project['bg-preview-image'])">
+                            <img :src="'img/project-preview/' + project['bg-preview-image']">
                         </div>
-                        <img class="project-thumbnail border" :src="getImagePath(project['preview-image'])" width="300px">
+                        <img class="project-thumbnail border" :src="'img/project-preview/' + project['preview-image']" width="300px">
                     </div>
                 </div>
                 <div class="">
@@ -40,11 +40,6 @@ import { Projects } from '../db.js';
 import { ref } from 'vue';
 
 const projects = ref(Projects);
-
-
-const getImagePath  = (imageName) => {
-    return '/src/assets/img/project-preview/' + imageName
-}
 
 </script>
 <style scoped>
