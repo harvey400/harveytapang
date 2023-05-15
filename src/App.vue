@@ -1,9 +1,9 @@
 <template>
   <header>
-    <ul class="nav">
+    <!-- <ul class="nav">
       <li><router-link :to="{name:'about'}">About</router-link></li>
       <li><router-link :to="{name: 'projects'}">Projects</router-link></li>
-    </ul>
+    </ul> -->
   </header>
   
   <main>
