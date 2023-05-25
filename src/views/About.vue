@@ -5,7 +5,7 @@
         <Skills/>
         <Experience/>
         <Projects/>
-        <Contact/>
+        <!-- <Contact/> -->
         <MyLinks/>
     </div>
 </template>
