@@ -3,7 +3,7 @@
         "id": 1,
         "title": "iBMS",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, nisi dicta veniam officiis unde aliquid distinctio inventore velit eum, expedita corporis, magnam et quae quisquam hic ab beatae in minima? Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ea nobis illum, quis quibusdam molestias nulla eligendi, corrupti consequatur dolor quo ipsum dicta quaerat dolores sed, tenetur blanditiis aliquid eum.",
-        "link":"",
+        "link":"http://bms-laravel.epizy.com/",
         "preview-image": "ibms.png",
         "bg-preview-image": "ibms-bg.png"
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "title": "Cert Search",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, nisi dicta veniam officiis unde aliquid distinctio inventore velit eum, expedita corporis, magnam et quae quisquam hic ab beatae in minima? Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ea nobis illum, quis quibusdam molestias nulla eligendi, corrupti consequatur dolor quo ipsum dicta quaerat dolores sed, tenetur blanditiis aliquid eum.",
-        "link":"",
+        "link":"https://certcheck.ukas.com/",
         "preview-image": "certsearch.png",
         "bg-preview-image": "certsearch-bg.png"
     }
