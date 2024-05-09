@@ -44,7 +44,7 @@ onMounted(()=> {
 <style scoped>
 
 .clip-circle {
-    transition: 1s ease-in;
+    transition: .75s ease-in;
     clip-path: circle(400px at center) !important;
 }
 
@@ -55,7 +55,7 @@ onMounted(()=> {
     height: 550px;
     width: 550px;
     z-index: -1;
-    transition: 1s ease-out;
+    transition: .75s ease-out;
     clip-path: circle(0px at center);
     opacity: .3;
 }
