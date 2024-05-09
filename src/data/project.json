@@ -18,7 +18,7 @@
     {
         "id": 3,
         "title": "My Bizmates",
-        "description": "A Web app that mandates every company to upload an accredited certifications so that the user can validate the status of certifications of each company around the world. certifications of each company around the word. Developed using Laravel Framework in a Service Layer approach and Repository pattern.",
+        "description": "An online communication school focused on helping Japanese Professionals with their business English skill. Developed using Laravel Framework in a Service Layer approach and Repository pattern.",
         "link":"https://www.bizmates.jp/",
         "preview-image": "bizmates.png",
         "bg-preview-image": "bizmates-bg.png"
