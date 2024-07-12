@@ -3,8 +3,13 @@
         "id": 1,
         "title": "iBMS",
         "description": "An intelligent Building Management System that controls all devices from Wall Switches and IR Remote Appliances to monitoring each room's electricity consumption on a Web App. This web app has a feature that can integrate 3rd party devices such as Smoke and Gas Detector. It has a Device Management feature where admin can easily register additional devices and plot these devices on a custom made map within a building. Developed using Laravel Framework for backend and VueJs for frontend",
-        "link":"http://bms-laravel.epizy.com/",
-        "preview-image": "ibms.png",
+        "link":"https://silicon-vertex-176304.an.r.appspot.com/login",
+        "preview-images": [
+            "ibms-1.png",
+            "ibms-2.png",
+            "ibms-3.png",
+            "ibms-4.png"
+        ],
         "bg-preview-image": "ibms-bg.png"
     },
     {
@@ -12,7 +17,9 @@
         "title": "Cert Search",
         "description": "A Web app that mandates every company to upload an accredited certifications so that the user can validate the status of certifications of each company around the world. certifications of each company around the word. Developed using Laravel Framework in a Service Layer approach and Repository pattern.",
         "link":"https://certcheck.ukas.com/",
-        "preview-image": "certsearch.png",
+        "preview-images": [
+            "certsearch.png"
+        ],
         "bg-preview-image": "certsearch-bg.png"
     },
     {
@@ -20,7 +27,9 @@
         "title": "My Bizmates",
         "description": "An online communication school focused on helping Japanese Professionals with their business English skill. Developed using Laravel Framework in a Service Layer approach and Repository pattern.",
         "link":"https://www.bizmates.jp/",
-        "preview-image": "bizmates.png",
+        "preview-images": [
+            "bizmates.png"
+        ],
         "bg-preview-image": "bizmates-bg.png"
     }
 ]
