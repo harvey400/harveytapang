@@ -7,18 +7,24 @@
     },
     {
         "id": 2,
+        "name": "MySQL",
+        "link": "https://www.mysql.com/",
+        "logo": "mysql.png"
+    },
+    {
+        "id": 3,
         "name": "Vue JS",
         "link": "https://vuejs.org/",
         "logo": "vuejs.png"
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Javascript",
         "link": "https://www.javascript.com/",
         "logo": "javascript.png"
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "Boostrap CSS",
         "link": "https://getbootstrap.com/",
         "logo": "bootstrap.png"
